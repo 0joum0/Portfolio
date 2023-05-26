@@ -1,0 +1,40 @@
+*{
+    font-family: Kanit, arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(243, 237, 237);
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(40, 40, 230);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #3a6cf4;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+    text-decoration: none;
+
+}
+.navigation a:hover{
+    color: #601cfc;
+}
